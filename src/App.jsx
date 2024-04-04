@@ -23,7 +23,7 @@ function App() {
    const onSwap = () => {
      setFromCurrency(toCurrency)
      setToCurrency(fromCurrency)
-    
+     setFromVal(0)
      
    }
    
