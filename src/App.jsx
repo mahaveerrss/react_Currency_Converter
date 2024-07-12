@@ -4,8 +4,8 @@ import useCurrency from "./hooks/useCurrency";
 function App() {
   const [fromCurrency, setFromCurrency] = useState("usd");
   const [toCurrency, setToCurrency] = useState("inr");
-  const [fromVal,setFromVal] = useState('')
-  const [calculated,setCalculated] = useState('')
+  const [fromVal,setFromVal] = useState(0)
+  const [calculated,setCalculated] = useState(0)
 
  
   const data = useCurrency(fromCurrency);
